@@ -25,14 +25,15 @@ Now in this step what we do is we remove all the special characters which do not
 - ! *-we do not need this* 
 ## Removing the stop words
 Now we also remove the stop words like the was these words dont really add anything to the analytics parts.
-Movie
-Great
+- Movie
+- Great
 ## Classification 
 Now in these steps your task is to classify the words whether it is a positive word, negative or a neutral word. For positive we give a score of +1 for negative -1 and neutral we give 0.
 ### Apply supervised Algorithms for Classification:
 This is the part where machine learning comes into the picture. We can model our data with a bag of words or we can use Lexicons, which are nothing but a Dictionary of words with a pre-classified set of words.
 Once the model is trained we can use it for testing the analysis of the statements. More the accuracy of score better is your algorithm or the classification.
- Movie- neutral:=0
-Great- positive:-1
- Overall score 1+0=1
+ - Movie- neutral:=0
+- Great- positive:-1
+
+Overall score 1+0=1
 So its a positive statement.
